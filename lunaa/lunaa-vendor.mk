@@ -102,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib/libaudioEngineerTest.so \
     vendor/realme/lunaa/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
     vendor/realme/lunaa/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
+    vendor/realme/lunaa/proprietary/vendor/lib/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.st21nfc.st.so \
     vendor/realme/lunaa/proprietary/odm/lib/rfsa/adsp/aiboost/libQnnHtpAltPrepSkel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/aiboost/libQnnHtpAltPrepSkel.so \
     vendor/realme/lunaa/proprietary/odm/lib/rfsa/adsp/aiboost/libQnnHtpSkel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/aiboost/libQnnHtpSkel.so \
     vendor/realme/lunaa/proprietary/odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so \
@@ -290,6 +291,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/realme/lunaa/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
+    vendor/realme/lunaa/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.cwb@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cwb@1.0.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
@@ -370,9 +372,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/vendor/bin/qrtr-lookup:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-lookup \
     vendor/realme/lunaa/proprietary/vendor/bin/qrtr-ns:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-ns \
     vendor/realme/lunaa/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
-    vendor/realme/lunaa/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/realme/lunaa/proprietary/vendor/bin/qtigetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtigetprop \
     vendor/realme/lunaa/proprietary/vendor/bin/qtisetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtisetprop \
+    vendor/realme/lunaa/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/realme/lunaa/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/realme/lunaa/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/realme/lunaa/proprietary/vendor/bin/shsusrd:$(TARGET_COPY_OUT_VENDOR)/bin/shsusrd \
